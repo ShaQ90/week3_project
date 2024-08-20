@@ -1,5 +1,10 @@
 .ipynb_checkpoints/
 .venv/
+<<<<<<< Updated upstream
+=======
+.new_venv/
+.virtual_documents
+>>>>>>> Stashed changes
 .env
 notebooks/.ipynb_checkpoints/
 notebooks/.env
