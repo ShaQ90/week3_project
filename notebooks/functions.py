@@ -22,8 +22,10 @@ def number_positions(number):
         positions.append(x)
     return positions
 
-def plot_drawing(df, agg_opt):
-    
+
+#fucntion to draw plot graph for single DF
+def plot_drawing_single(df, agg_opt,):
+
     tick_label = takes_x_values(df)
     # plotting a bar chart
     plt.bar(number_positions(len(df)),
@@ -44,3 +46,26 @@ def plot_drawing(df, agg_opt):
     plt.savefig("../figures/"+filename.replace(' ','_')+".png")
     #display plot
     plt.show()
+
+def age_group (age):
+    if age > 90 :
+        return 90
+    elif age > 80:
+        return 80
+    elif age > 70:
+        return 70
+    elif age > 60:
+        return 60
+    elif age > 50:
+        return 50
+    elif age > 40:
+        return 40
+    elif age > 30:
+        return 30
+    elif age > 20:
+        return 20
+    elif age > 10:
+        return 10
+    else:
+        return 0
+
