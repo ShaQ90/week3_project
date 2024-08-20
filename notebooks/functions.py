@@ -38,4 +38,9 @@ def plot_drawing(df, agg_opt):
     plt.ylabel(df.columns[0])
     # plot title
     plt.title(df.columns[0]+" per "+df.index.name +" ("+ agg_opt+")")
+    #save plot
+    plt.draw()
+    filename= df.columns[0]+"x"+df.index.name +"("+ agg_opt+")"
+    plt.savefig("../figures/"+filename.replace(' ','_')+".png")
+    #display plot
     plt.show()
