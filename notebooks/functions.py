@@ -32,7 +32,6 @@ def plot_drawing(df, agg_opt):
              width = 0.8,
              color = ['red', 'green'])
     
-    print(len(df) , takes_y_values(df,df.columns[0]),takes_x_values(df) )
     # naming the x-axis
     plt.xlabel(df.index.name)
     # naming the y-axis
@@ -40,4 +39,3 @@ def plot_drawing(df, agg_opt):
     # plot title
     plt.title(df.columns[0]+" per "+df.index.name +" ("+ agg_opt+")")
     plt.show()
-    return 1
