@@ -27,12 +27,11 @@ def number_positions(number):
 
 #fuction to add label to income
 def income_label (value):
-    #lets say lower income is <= 21001 (25%)
-    #middle < 37520 (50%)
-    # higher the rest
-    if value < 21001 :
+    #values from research
+    
+    if value < 28000 :
         return "lower"
-    elif value > middle:
+    elif value < 90000:
         return "middle"
     else:
         return "higher"
