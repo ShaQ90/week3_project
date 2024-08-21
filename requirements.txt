@@ -201,6 +201,7 @@ packaging==24.1
     #   jupyterlab-server
     #   matplotlib
     #   nbconvert
+    #   plotly
     #   qtconsole
     #   qtpy
 pandas==2.2.2
@@ -217,6 +218,8 @@ pillow==10.4.0
     # via matplotlib
 platformdirs==4.2.2
     # via jupyter-core
+plotly==5.23.0
+    # via week3-project (pyproject.toml)
 prometheus-client==0.20.0
     # via jupyter-server
 prompt-toolkit==3.0.47
@@ -287,7 +290,7 @@ seaborn==0.13.2
     # via week3-project (pyproject.toml)
 send2trash==1.8.3
     # via jupyter-server
-setuptools==72.2.0
+setuptools==73.0.1
     # via jupyterlab
 six==1.16.0
     # via
@@ -303,6 +306,8 @@ soupsieve==2.6
     # via beautifulsoup4
 stack-data==0.6.3
     # via ipython
+tenacity==9.0.0
+    # via plotly
 terminado==0.18.1
     # via
     #   jupyter-server
@@ -334,7 +339,7 @@ traitlets==5.14.3
     #   nbconvert
     #   nbformat
     #   qtconsole
-types-python-dateutil==2.9.0.20240316
+types-python-dateutil==2.9.0.20240821
     # via arrow
 tzdata==2024.1
     # via pandas
