@@ -25,9 +25,20 @@ def number_positions(number):
         positions.append(x)
     return positions
 
+#fuction to add label to income
+def income_label (value):
+    #lets say lower income is <= 21001 (25%)
+    #middle < 37520 (50%)
+    # higher the rest
+    if value < 21001 :
+        return "lower"
+    elif value > middle:
+        return "middle"
+    else:
+        return "higher"
 
 #fucntion to draw plot graph for DF with index and value
-
+    
 def plot_drawing_single(df, agg_opt,):
 
     tick_label = takes_x_values(df)
