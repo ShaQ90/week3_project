@@ -32,6 +32,10 @@ def income_label (value):
     # higher the rest
     if value < 21001 :
         return "lower"
+    elif value > middle:
+        return "middle"
+    else:
+        return "higher"
 
 #fucntion to draw plot graph for DF with index and value
     
