@@ -101,7 +101,7 @@ def plot_drawing_sg(df, agg_opt, value_name):
     
     
 
-
+#fuction to make age groups
 def age_group (age):
     if age > 90 :
         return 90
@@ -124,5 +124,10 @@ def age_group (age):
     else:
         return 0
 
+def creat_df_count (df, col):
 
+    df = pd.DataFrame(df[col].value_counts())
+    df.index.name = col
+    df.columns = ['count']
+    return df
 
