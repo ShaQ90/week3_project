@@ -13,6 +13,8 @@ dependencies = [
     "ipykernel>=6.29.5",
     "pycountries>=1.1.1",
     "pycountry>=24.6.1",
+    "plotly>=5.23.0",
+    "openpyxl>=3.1.5",
 ]
 
 [build-system]
