@@ -51,6 +51,33 @@ def plot_drawing_single(df, agg_opt,):
     #display plot
     plt.show()
 
+def plot_drawing_pie_count(df):
+    # Creating labels
+    label_names = takes_x_values(df)
+    total_values = 0
+    label_values = []
+    for x in range(len(df)):
+        total_values += int(df.values[x])
+        label_values.append(int(df.values[x]))
+
+    for x in range(len(label_values)):
+        precentage = int((label_values[x])*100)/ int(total_values)
+        label_names[x] += "\n"+str(round(precentage,2))+" %"
+
+    
+    #Creating plot
+    #fig = plt.figure(figsize=(10, 7))
+    plt.pie(label_values, labels=label_names)
+
+    # plot title
+    plt.title(df.index.name+" Percentages")
+    #save plot
+    plt.draw()
+    filename= df.columns[0]+"x"+df.index.name 
+    plt.savefig("../figures/"+filename.replace(' ','_')+".png")
+    #display plot
+    plt.show()
+
 
 def get_col_names(df):
     col_names = []
