@@ -22,7 +22,7 @@ Despite this growing need, many individuals face barriers to accessing quality m
  - Is remote working bad for mental health?
  - Is there a disparity by income?
  - Could it be a hereditary?
- -  Could physical health impact mental health?
+ - Could physical health impact mental health?
 
 
 
@@ -44,18 +44,27 @@ Despite this growing need, many individuals face barriers to accessing quality m
   - Presence of Nan
   - Presence of typos/invalid values
   - too many values that needed to be regrouped
-
+- Depression Dataset
+  - Some columes needed to be grouped
 
 ## Solutions for the dataset issues
+
 - Kaggle - Mental Health Inside the job:
   - 63 total columns with extremely long names: remapping of col names done
   - Cleaned Nan from columns: age, sex, country, benefits, no_employees, diagnosed_conditions
   - Column sex full of typos/invalid values: remapping done
-  - regrouping of age, no_employees, country values, Income
+  - Regrouping of age, no_employees, country values
+- Depression Dataset
+  - created new colums for groups
+
 
 # Conclussions
 
-
+ - Strategic Market Focus: Target countries like Lithuania and Germany, where mental health challenges are rising, indicating a potential demand for workplace mental health services.
+ - Tailored Service Offerings: Design services that address the specific needs of young employees particularly focusing on women, who are more likely to be affected.
+ - Employer Engagement: Emphasize the importance of creating a supportive workplace culture where employees feel safe using mental health resources without fear of career repercussions.
+ - Socio-Economic Targeting: Position services to appeal to higher-income companies that can afford comprehensive mental health programs, highlighting the benefits of improved employee well-being.
+ - Evidence-Based Approach: Utilize research on the positive impact of healthy habits on mental health to develop programs that integrate wellness and counseling, making them more attractive to employers and effective for employees.
 
 # Next steps
 ...
