@@ -191,7 +191,7 @@ def create_age_group(age):
 
 #Creating a function to group company size
 def create_size_group(no_employees):
-        if '-' in no_employees:
+    if '-' in no_employees:
         lower_bound, upper_bound = no_employees.split('-')
         lower_bound = int(lower_bound)
         upper_bound = int(upper_bound)
