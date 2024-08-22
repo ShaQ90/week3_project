@@ -14,7 +14,8 @@ Despite this growing need, many individuals face barriers to accessing quality m
 
 # Questions 
 
-<<<<<<< HEAD
+
+
  - What is the number of mental health disorder in EU?
  - In which country of EU has the higher rate of mental health disorder?
  - What is the prevalence of diagnosed cases between EU and USA?
@@ -24,24 +25,6 @@ Despite this growing need, many individuals face barriers to accessing quality m
  - Is there a disparity by income?
  - Could it be a hereditary?
  - Could physical health impact mental health?
-
-=======
- - What is the trend of mental health disorder in EU?
-
- - Which EU country has the highest rate of mental health disorders?
-	
- - What is the prevalence of diagnosed cases between EU and USA?
-
- - Do companies offer mental health benefits?
-
- - Are women and men equally affected in the workplace?
-
- - What is the most affected age range?
-
-
-
->>>>>>> origin
-
 
 # Dataset 
 
