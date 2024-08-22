@@ -1,1 +1,3 @@
-
+data:
+  file1: "../data/raw/data1.csv"
+  file2: "../data/raw/depression_data.csv"
