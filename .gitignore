@@ -9,5 +9,5 @@ notebooks/.env
 notebooks/.DS_Store
 notebooks/__pycache__
 .DS_Store
-
+uv.lock
 *.in
