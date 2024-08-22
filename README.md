@@ -66,6 +66,11 @@ Despite this growing need, many individuals face barriers to accessing quality m
  - Socio-Economic Targeting: Position services to appeal to higher-income companies that can afford comprehensive mental health programs, highlighting the benefits of improved employee well-being.
  - Evidence-Based Approach: Utilize research on the positive impact of healthy habits on mental health to develop programs that integrate wellness and counseling, making them more attractive to employers and effective for employees.
 
+# Deliverables
+
+ - Kaban Board - https://trello.com/invite/b/66c318848f8a4c244769b6c0/ATTI9dc973081c9ac5b462ccf9de26a6a7a56D151797/week3project
+ - https://docs.google.com/presentation/d/1Y4LsFWEG1bt8ziBLzGD62l7MflV36yGEsipf1zgc9CM/edit?usp=sharing
+
 # Next steps
 ...
 
