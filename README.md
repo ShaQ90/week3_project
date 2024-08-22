@@ -39,12 +39,20 @@ stigma, and a one-size-fits-all approach to treatment.
 
 ## Main dataset issues
 
-- ...
+- Kaggle - Mental Health Inside the job:
+  - Extremely long columns names
+  - Presence of Nan
+  - Presence of typos/invalid values
+  - too many values that needed to be regrouped
 - ...
 - ...
 
 ## Solutions for the dataset issues
-...
+- Kaggle - Mental Health Inside the job:
+  - 63 total columns with extremely long names: remapping of col names done
+  - Cleaned Nan from columns: age, sex, country, benefits, no_employees, diagnosed_conditions
+  - Column sex full of typos/invalid values: remapping done
+  - regrouping of age, no_employees, country values
 
 # Conclussions
 
