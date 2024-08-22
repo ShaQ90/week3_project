@@ -169,3 +169,44 @@ def creat_df_count (df, col):
     df.columns = ['count']
     return df
 
+#function to regroup country column:
+def grouped_countries(country):
+    if country in european_countries:
+        return "Europe"
+    else:
+        return country
+
+#Defining a function to group age
+
+def create_age_group(age):
+    if 17 <=  age <= 25:
+        return "17-25"
+    elif 26 <=  age <= 35:
+        return "26-35"
+    elif 36 <=  age <= 45:
+        return "36-45"
+    elif 46 <=  age <= 55:
+        return "46-55"
+    else:
+        return "56-70"
+
+#Creating a function to group company size
+def create_size_group(no_employees):
+        if '-' in no_employees:
+        lower_bound, upper_bound = no_employees.split('-')
+        lower_bound = int(lower_bound)
+        upper_bound = int(upper_bound)
+    elif 'More than' in no_employees:
+        lower_bound = int(no_employees.split()[-1])
+        upper_bound = np.inf  # Infinite upper bound for "More than" cases
+    else:
+        lower_bound = int(no_employees)
+        upper_bound = lower_bound  # Single number case
+    if upper_bound <= 10:
+        return "Micro"
+    elif upper_bound <= 50:
+        return "Small"
+    elif upper_bound <= 250:
+        return "Medium-sized"
+    else:
+        return "Large"
