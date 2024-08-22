@@ -17,15 +17,20 @@ stigma, and a one-size-fits-all approach to treatment.
 
 # Questions 
 
- - What is the number of mental health disorder in EU?
+ - What is the trend of mental health disorder in EU?
 
- - In which country of EU has the higher rate of mental health disorder?
+ - Which EU country has the highest rate of mental health disorders?
 	
- - Do companies provide mental health benefits and training programs? If yes, what is the company size?
+ - What is the prevalence of diagnosed cases between EU and USA?
 
- - Employees with lower incomes are less likely to access mental health resources due to cost and stigma, leading to untreated conditions and higher absenteeism?
+ - Do companies offer mental health benefits?
 
- - Marketing strategy, to who and how?
+ - Are women and men equally affected in the workplace?
+
+ - What is the most affected age range?
+
+
+
 
 
 # Dataset 
