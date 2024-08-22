@@ -7,5 +7,7 @@
 notebooks/.ipynb_checkpoints/
 notebooks/.env
 notebooks/.DS_Store
+notebooks/__pycache__
 .DS_Store
+
 *.in
