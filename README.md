@@ -14,6 +14,7 @@ Despite this growing need, many individuals face barriers to accessing quality m
 
 # Questions 
 
+
  - What is the number of mental health disorder in EU?
  - In which country of EU has the higher rate of mental health disorder?
  - What is the prevalence of diagnosed cases between EU and USA?
